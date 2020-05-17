@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/fundo">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/vingadores" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtNomeViewFilme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Os Vingadores"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textColor="@color/titulo"/>
+
+            <TextView
+                android:id="@+id/txtlançamentoViewFilme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="26 de abril de de 2012"
+                android:textSize="18sp"
+                android:textColor="@color/fonte"/>
+
+            <TextView
+                android:id="@+id/txtGeneroViewfilme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ação"
+                android:textSize="18sp"
+                android:textColor="@color/fonte"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/star" />
+
+                <TextView
+                    android:id="@+id/txtNotaviewFilme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10.0"
+                    android:textColor="@color/titulo"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sinopse"
+        android:textSize="20sp"
+        android:textColor="@color/titulo"/>
+
+    <TextView
+        android:id="@+id/txtSinopseviewFilme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade."
+        android:textColor="@color/fonte"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEditarViewFilme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#002AFF"
+            android:text="Editar" />
+
+        <Button
+            android:id="@+id/btnExcluirViewFilme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#FF0000"
+            android:text="Excluir" />
+    </LinearLayout>
+
+</LinearLayout>

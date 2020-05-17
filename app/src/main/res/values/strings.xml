@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FilmePAM3</string>
+    <array name="generos">
+        <item>Ação</item>
+        <item>Aventura</item>
+        <item>Comedia</item>
+        <item>Drama</item>
+        <item>Romance</item>
+        <item>Sobrenatural</item>
+    </array>
+</resources>

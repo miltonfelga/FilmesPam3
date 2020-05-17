@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/fundo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:text="Editar Filme"
+        android:textSize="22sp"
+        android:textColor="@color/titulo"/>
+
+    <EditText
+        android:id="@+id/txtEditarFilme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entre com o nome do filme"
+        android:backgroundTint="@color/titulo"
+        android:textColorHint="@color/titulo"
+        android:textColor="@color/titulo"/>
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:text="selecione a imagem do filme"
+        android:background="@color/fonte"
+        android:textColor="@color/titulo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="6dp"
+        android:text="Selecione o genero"
+        android:textColor="@color/titulo"/>
+
+    <Spinner
+        android:id="@+id/spnGeneros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/generos"
+        android:background="@color/titulo"/>
+
+    <EditText
+        android:id="@+id/txtEditarLançamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrar com a data de lançamento"
+        android:backgroundTint="@color/titulo"
+        android:textColorHint="@color/titulo"
+        android:textColor="@color/titulo"/>
+
+    <EditText
+        android:id="@+id/txtEditarNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entre com a nota"
+        android:backgroundTint="@color/titulo"
+        android:textColorHint="@color/titulo"
+        android:textColor="@color/titulo"/>
+
+    <EditText
+        android:id="@+id/txtEditarSinopse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entre com a sinopse"
+        android:inputType="textMultiLine"
+        android:maxLines="3"
+        android:backgroundTint="@color/titulo"
+        android:textColorHint="@color/titulo"
+        android:textColor="@color/titulo"/>
+
+    <Button
+        android:id="@+id/btnAlterarFilme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alterar"
+        android:background="@color/fonte"
+        android:textColor="@color/titulo"/>
+
+</LinearLayout>
